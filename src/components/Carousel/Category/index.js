@@ -70,7 +70,7 @@ function ParallaxText({ children, baseVelocity = 100 }) {
                 width={1000}
                 height={1000}
               />
-              <p className="leading-loose">Category</p>
+              <p className="leading-loose text-sm font-medium">Category</p>
             </div>
           </Link>
         ))}

@@ -8,7 +8,7 @@ import { ProductCard } from '@/components/ui/ProductCard'
 const TabsData = ({items}) => {
   return (
     <>
-        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 justify-items-center sm:gap-2 md:gap-4 mt-10'>
+        <div className='grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 justify-items-center sm:gap-2 md:gap-4 mt-10 gap-2'>
         <div className='sm:col-span-2 bg-secondary p-2 w-full'>
             <div className='flex justify-center items-center'>
                 <div className=' px-8'>
