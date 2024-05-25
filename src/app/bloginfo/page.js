@@ -1,12 +1,12 @@
 import Image from 'next/image'
 import React from 'react'
 import t1 from "../../../public/images/t1.jpg"
-import HeroHeader from '@/components/layout/HeroHeader'
+import HeroHeader from '../../components/Layout/HeroHeader';
 import Container from '@/components/Layout/Container/Container'
 const Bloginfo = () => {
   return (
  <>
-    <HeroHeader  title={"Blog Detail"}/>
+    <HeroHeader  pageName={"Blog Detail"}/>
     <Container>
     <div className=' mt-10'>
     <Image width={600} height={600}  className='w-full h-auto md:h-[600px] bg-contain  rounded-md' src={t1} alt='blogImage'/>

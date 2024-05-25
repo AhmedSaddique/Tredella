@@ -1,4 +1,5 @@
-import HeroHeader from '@/components/layout/HeroHeader';
+
+import HeroHeader from '../../components/Layout/HeroHeader';
 import Info from '@/components/widgets/Info';
 import React from 'react'
 const items = [
@@ -9,7 +10,7 @@ const items = [
 const Return = () => {
   return (
     <>
-      <HeroHeader title={"Careers"} page={"Careers"} />
+      <HeroHeader pageName={"Careers"} />
       <Info
       items={items}
       />   

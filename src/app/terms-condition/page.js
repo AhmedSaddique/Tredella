@@ -1,6 +1,6 @@
 
-import HeroHeader from '/components/Layout/HeroHeader';
-import Info from '/components/widgets/Info';
+import HeroHeader from '../../components/Layout/HeroHeader';
+import Info from '@/components/widgets/Info';
 import Link from 'next/link';
 import React from 'react'
 const items = [
@@ -21,7 +21,7 @@ const terms = () => {
     
   return (
     <>
-       <HeroHeader title={"Careers"} />
+       <HeroHeader pageName={"Careers"} />
       <Info
       items={items}
       />  

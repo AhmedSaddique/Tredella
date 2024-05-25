@@ -1,5 +1,5 @@
 
-import HeroHeader from '@/components/Layout/HeroHeader';
+import HeroHeader from '../../components/Layout/HeroHeader';
 import Info from '@/components/widgets/Info'
 import React from 'react'
 const items = [
@@ -11,7 +11,7 @@ const items = [
 const Career = () => {
   return (
     <>
-      <HeroHeader title={"Careers"} />
+      <HeroHeader pageName={"Careers"} />
       <Info
       items={items}
       />

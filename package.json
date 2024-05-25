@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "git": "git add . && git commit -m tredella && git push"
   },
   "dependencies": {
     "@motionone/utils": "^10.17.0",
