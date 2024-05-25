@@ -42,7 +42,7 @@ const Header = () => {
     <div className='bg-secondary border-b w-full py-3'>
       <Container >
           <div className='flex justify-between flex-wrap lg:flex-nowrap gap-0 md:gap-2 items-center' >
-              <Image className='w-32 lg:w-40' src={logo} alt="logo" width={150} height={150} />
+              <Image className='w-24 lg:w-40' src={logo} alt="logo" width={150} height={150} />
               <DrawerMenu
               width={250}
                 title={<><div className='p-1 rounded-md block lg:hidden text-white bg-primary'>
