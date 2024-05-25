@@ -19,14 +19,13 @@ const Footers = () => {
       <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 justify-items-center'>
       <div className='w-full mt-5 space-y-3'>
             <Image width={150} height={150} src={logo} alt={"Logo"} />
-            <h3 className=''>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</h3>
+            <h3 className=''>Tredella offers fashion and essentials tailored specifically for your lifestyle - an online marketplace providing convenient shopping.</h3>
             <div className='space-y-3 mt-5'>
             <h1 className='font-bold'>Accepted Payments</h1> 
             <div className='flex flex-wrap md:flex-nowrap gap-2'>
                 <Image width={60} height={60} className='border rounded-md px-2' src={visa} alt='card'/>
                 <Image width={60} height={60} className='border rounded-md px-2' src={master} alt='card'/>
                 <Image width={60} height={60} className='border rounded-md px-2' src={apple} alt='card'/>
-                <Image width={60} height={60} className='border rounded-md px-2' src={gpay} alt='card'/>
             </div>
             </div>
             </div>
