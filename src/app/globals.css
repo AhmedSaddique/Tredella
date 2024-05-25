@@ -10,7 +10,6 @@
 
 .parallax {
     overflow: hidden;
-    line-height: 0.8;
     margin: 0;
     white-space: nowrap;
     display: flex;
@@ -18,9 +17,6 @@
   }
   
   .parallax .scroller {
-    font-weight: 600;
-    text-transform: uppercase;
-    display: flex;
     white-space: nowrap;
     display: flex;
     flex-wrap: nowrap;
@@ -28,6 +24,6 @@
   
   .parallax span {
     display: block;
-    margin-right: 20px;
+    margin-right: 10px;
   }
   

@@ -24,7 +24,7 @@ const createLoopedArray = (arr, count) => {
   return loopedArray;
 };
 
-const loopedBrandimg = createLoopedArray(Brandimg, 5); // Adjust the count based on your needs
+const loopedBrandimg = createLoopedArray(Brandimg, 4); // Adjust the count based on your needs
 
 function ParallaxText({ children, baseVelocity = 100 }) {
   const baseX = useMotionValue(0);
@@ -34,7 +34,7 @@ function ParallaxText({ children, baseVelocity = 100 }) {
     damping: 50,
     stiffness: 400,
   });
-  const velocityFactor = useTransform(smoothVelocity, [0, 1000], [0, 5], {
+  const velocityFactor = useTransform(smoothVelocity, [0, 1000], [0, 4], {
     clamp: false,
   });
 
@@ -64,13 +64,13 @@ function ParallaxText({ children, baseVelocity = 100 }) {
             className="grid place-items-center md:w-[32%] max-w-[30%] ">
             <div className={` md:p-0 w-20 h-20 md:w-36 md:h-32 ml-2 mr-2 items-center flex flex-col pb-2  border border-primary100 rounded-lg `}>
               <Image
-                className="py-2 rounded-md w-16 h-16 md:w-24 md:h-24 lg:w-28 lg:h-28 mx-auto"
+                className="py-1 rounded-md w-16 h-16 md:w-24 md:h-24 lg:w-28 lg:h-28 mx-auto"
                 src={array.image}
                 alt={array.image}
                 width={1000}
                 height={1000}
               />
-              <p className="leading-loose text-sm font-medium">Category</p>
+              <p className="leading-loose text-sm md:text-lg font-medium">Category</p>
             </div>
           </Link>
         ))}
