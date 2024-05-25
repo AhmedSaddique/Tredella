@@ -7,10 +7,29 @@ module.exports = {
   ],
   theme: {
     extend: {
+      animation: {
+        "meteor-effect": "meteor 5s linear infinite",
+      },
+      keyframes: {
+        meteor: {
+          "0%": { transform: "rotate(215deg) translateX(0)", opacity: "1" },
+          "70%": { opacity: "1" },
+          "100%": {
+            transform: "rotate(215deg) translateX(-500px)",
+            opacity: "0",
+          },
+        },
+      },
+      colors:{
+        primary: "#ff1a34",
+        primary2: "#b30015",
+        secondary:"#FFFCF5",
+        dark:"#3A393C",
+        light:"#C7C5C2"
+    },
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        'teamCircle' :"url('/images/teamCircle.png')",
+        'about':"url('/images/1.jpg')",
       },
     },
   },
