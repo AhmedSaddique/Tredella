@@ -114,7 +114,7 @@ const Header = () => {
 
       <div className='bg-primary p-3 fixed w-full bottom-0 block lg:hidden z-50'>
       <div className='flex justify-evenly gap-4 '>
-              <Link className='text-base lg:text-lg ' href={"/profile"}><MdOutlineHome  size={30}  className= 'text-white' /></Link>
+              <Link className='text-base lg:text-lg ' href={"/"}><MdOutlineHome  size={30}  className= 'text-white' /></Link>
 
                 <Link className='relative group ' href={"/"}>
                   <div className='rounded-full text-dark w-6 h-6 bg-white  absolute bottom-3 left-4 flex justify-center items-center transition duration-200 ease-in'>
