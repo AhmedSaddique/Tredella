@@ -10,7 +10,7 @@ const items = [
 const Career = () => {
   return (
     <>
-      <HeroHeader title={"Careers"} page={"Careers"} />
+      <HeroHeader title={"Careers"} />
       <Info
       items={items}
       />

@@ -1,4 +1,5 @@
-import HeroHeader from '@/components/layout/HeroHeader';
+
+import HeroHeader from '@/components/Layout/HeroHeader';
 import Info from '@/components/widgets/Info';
 import Link from 'next/link';
 import React from 'react'
@@ -29,7 +30,7 @@ const items = [
 const Privacy = () => {
   return (
     <>
-      <HeroHeader title={"Careers"} page={"Careers"} />
+      <HeroHeader title={"Careers"} />
       <Info
       items={items}
       />   

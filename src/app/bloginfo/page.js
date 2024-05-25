@@ -6,7 +6,7 @@ import Container from '@/components/Layout/Container/Container'
 const Bloginfo = () => {
   return (
  <>
-    <HeroHeader  title={"Blog Detail"} page={"BlogDetail"}/>
+    <HeroHeader  title={"Blog Detail"}/>
     <Container>
     <div className=' mt-10'>
     <Image width={600} height={600}  className='w-full h-auto md:h-[600px] bg-contain  rounded-md' src={t1} alt='blogImage'/>
