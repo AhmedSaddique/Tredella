@@ -12,11 +12,11 @@ const TabsData = ({items}) => {
         <div className='sm:col-span-2 bg-secondary p-2 w-full'>
             <div className='flex justify-center items-center'>
                 <div className=' px-8'>
-                    <h1 className='text-[22px] font-semibold md:text-[55px] md:font-bold'>23% off in All Product</h1>
+                    <h1 className='text-[30px] font-semibold md:text-[55px] md:font-bold'>23% off in All Product</h1>
                     <Link className='underline' href={"/"}>Shop Now</Link>
                 </div>
                 <div className='w-full'>
-                    <Image className='w-full' width={300} height={300} src={img1} alt='image'/>
+                    <Image className='w-full rounded-md hidden md:block' width={300} height={300} src={img1} alt='image'/>
                 </div>
             </div>
         </div>

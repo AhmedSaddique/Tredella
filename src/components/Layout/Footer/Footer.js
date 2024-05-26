@@ -66,7 +66,7 @@ const Footers = () => {
             <div className='w-full md:w-2/6 mt-3'>
                 <div className='flex flex-wrap gap-4'>
                     <Link className='flex items-center gap-2 font-bold  underline hover:no-underline'  href={"/"}> <FaSuitcase size={25} /> Become Seller</Link>
-                    <Link className='flex items-center gap-2 font-bold  underline hover:no-underline'  href={"/help-center"}> <LuBadgeHelp size={25} /> Help Canter</Link>
+                    <Link className='flex items-center gap-2 font-bold  underline hover:no-underline'  href={"/help-center"}> <LuBadgeHelp size={25} /> Help Center</Link>
                 </div>
             </div>
             <div className='w-full md:w-2/6 mt-3 mb-3'>
@@ -77,8 +77,8 @@ const Footers = () => {
             </div>
             <div className='w-full md:w-2/6 '>
                <div className='flex justify-center items-center md:flex-nowrap'>
-               <Image width={150} height={150} src={getgoogle} alt='googel'/>
-               <Image width={150} height={150} src={getapple} alt='googel'/>
+               <Image width={150} height={150} src={getgoogle} alt='google'/>
+               <Image width={150} height={150} src={getapple} alt='google'/>
                </div>
             </div>
     </div>
