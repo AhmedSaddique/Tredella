@@ -38,7 +38,7 @@ const ProductSlider = ({ ProductItem, Heading, className }) => {
           <hr className={`w-16 ${className} mb-2 md:mb-3 border-4`} />
         </div>
         <div>
-          <Link className="underline font-medium hover:no-underline" href={'/'}>
+          <Link className="underline font-medium hover:no-underline" href={'/products'}>
             View All
           </Link>
         </div>

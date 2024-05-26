@@ -86,13 +86,13 @@ const Header = () => {
               </>}
               />
               <div className='hidden lg:flex gap-2 md:gap-4 lg:gap-8 '>
-                <Link className='relative group ' href={"/"}>
+                <Link className='relative group ' href={"/wishlist"}>
                   <div className='rounded-full text-white w-6 h-6 bg-dark group-hover:bg-primary absolute bottom-3 left-4 flex justify-center items-center transition duration-200 ease-in'>
                     1
                   </div>
                 <IoMdHeartEmpty className='text-primary group-hover:text-dark transition duration-200 ease-in' size={30} />
                 </Link>
-                <Link className='relative group' href={"/"}>
+                <Link className='relative group' href={"/cart"}>
                   <div className='rounded-full text-white w-6 h-6 bg-dark group-hover:bg-primary absolute bottom-3 left-4 flex justify-center items-center transition duration-200 ease-in'>
                     1
                   </div>
@@ -116,13 +116,13 @@ const Header = () => {
       <div className='flex justify-evenly gap-4 '>
               <Link className='text-base lg:text-lg ' href={"/"}><MdOutlineHome  size={30}  className= 'text-white' /></Link>
 
-                <Link className='relative group ' href={"/"}>
+                <Link className='relative group ' href={"/wishlist"}>
                   <div className='rounded-full text-dark w-6 h-6 bg-white  absolute bottom-3 left-4 flex justify-center items-center transition duration-200 ease-in'>
                     1
                   </div>
                 <IoMdHeartEmpty className='text-white  transition duration-200 ease-in' size={30} />
                 </Link>
-                <Link className='relative group' href={"/"}>
+                <Link className='relative group' href={"/cart"}>
                   <div className='rounded-full text-dark w-6 h-6 bg-white  absolute bottom-3 left-4 flex justify-center items-center transition duration-200 ease-in'>
                     1
                   </div>

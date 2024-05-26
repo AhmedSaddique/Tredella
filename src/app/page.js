@@ -7,6 +7,7 @@ import ProductSlider from "@/components/Carousel/ProductSlider";
 import Category from "@/components/Carousel/Category";
 import TabsData from "@/components/widgets/TabsData";
 import Tabs from "@/components/ui/Tabs/Tabs";
+import ModalView from "@/components/ui/Modal";
 
 export default function Home() {
   const tabs = [
@@ -43,7 +44,7 @@ export default function Home() {
     <MainSlider  MainImage={[{image:t1,},{image:t2,}, {image:t3,}, {image:t2,},]} />
 
     <Category/>
-    <Tabs  tabs={tabs} />
+    <Tabs className="justify-center" tabs={tabs} />
     <ProductSlider
   Heading={"Brands"}
   ProductItem={[

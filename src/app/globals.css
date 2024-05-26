@@ -27,3 +27,18 @@
     margin-right: 10px;
   }
   
+  .floating-label-input:focus ~ .floating-label,
+  .floating-label-input:not(:placeholder-shown) ~ .floating-label {
+    transform: scale(0.70) translateY(-1.2rem);
+    opacity: 1;
+  }
+  .floating-label {
+    transition: transform 0.2s, opacity 0.2s;
+    transform-origin: top left;
+  }
+
+  .floating-label-select:focus ~ .floating-label,
+  .floating-label-select:not([value=""]) ~ .floating-label {
+    transform: scale(0.75) translateY(-1.5rem);
+    opacity: 1;
+  }

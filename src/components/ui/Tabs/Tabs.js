@@ -3,12 +3,12 @@
 import Container from '@/components/Layout/Container/Container';
 import { useState } from 'react';
 
-const Tabs = ({ tabs }) => {
+const Tabs = ({ tabs,className ,containerName}) => {
   const [activeTab, setActiveTab] = useState(0);
 
   return (
-    <Container className='mt-20'>
-      <div className="flex space-x-2 items-center justify-center">
+    <Container className={`mt-10 ${containerName}`}>
+      <div className={`flex space-x-2 items-center ${className}`}>
         {tabs.map((tab, index) => (
           <button
             key={index}
