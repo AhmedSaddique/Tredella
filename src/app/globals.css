@@ -42,3 +42,12 @@
     transform: scale(0.75) translateY(-1.5rem);
     opacity: 1;
   }
+
+  .ant-popover .ant-popover-inner {
+    width: 400px !important;
+  }
+  @media screen and (max-width: 480px) {
+    .ant-popover .ant-popover-inner {
+      width: 250px !important;
+    }
+  }

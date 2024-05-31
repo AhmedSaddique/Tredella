@@ -21,7 +21,7 @@ const terms = () => {
     
   return (
     <>
-       <HeroHeader pageName={"Careers"} />
+       <HeroHeader pageName={"Terms & Condition"} />
       <Info
       items={items}
       />  

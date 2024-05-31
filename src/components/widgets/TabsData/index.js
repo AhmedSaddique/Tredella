@@ -4,7 +4,6 @@ import React from 'react'
 import img1 from "../../../../public/images/t3.jpg"
 import { ProductCard } from '@/components/ui/ProductCard'
 
-
 const TabsData = ({items}) => {
   return (
     <>
