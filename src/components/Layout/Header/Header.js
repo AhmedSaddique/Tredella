@@ -162,25 +162,25 @@ const Header = () => {
 
       <div className='bg-primary p-3 fixed w-full bottom-0 block lg:hidden z-50'>
       <div className='flex justify-evenly gap-1 '>
-              <Link className='text-base lg:text-lg ' href={"/"}><MdOutlineHome  size={18}  className= 'text-white' /></Link>
+              <Link className='text-base lg:text-lg ' href={"/"}><MdOutlineHome  size={30}  className= 'text-white' /></Link>
 
                 <Link className='relative group ' href={"/wishlist"}>
                   <div className='rounded-full text-dark w-6 h-6 bg-white  absolute bottom-3 left-4 flex justify-center items-center transition duration-200 ease-in'>
                     1
                   </div>
-                <IoMdHeartEmpty className='text-white  transition duration-200 ease-in' size={18} />
+                <IoMdHeartEmpty className='text-white  transition duration-200 ease-in' size={30} />
                 </Link>
                 <Popover content={content} title="" trigger="click" placement="top">
-                <IoMdNotificationsOutline className='text-white  transition duration-200 ease-in' size={18} />
+                <IoMdNotificationsOutline className='text-white  transition duration-200 ease-in' size={30} />
                 </Popover>
                 <Link className='relative group' href={"/cart"}>
                   <div className='rounded-full text-dark w-6 h-6 bg-white  absolute bottom-3 left-4 flex justify-center items-center transition duration-200 ease-in'>
                     1
                   </div>
-                  <PiBag   className='text-white  transition duration-200 ease-in' size={18} />
+                  <PiBag   className='text-white  transition duration-200 ease-in' size={30} />
                 </Link>
                 <Popover content={setting} title="" trigger="click" placement="topRight">
-                <IoSettingsOutline className='text-white  transition duration-200 ease-in' size={18} />
+                <IoSettingsOutline className='text-white  transition duration-200 ease-in' size={30} />
                 </Popover>
               </div>
       </div>
